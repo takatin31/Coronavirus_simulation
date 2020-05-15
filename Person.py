@@ -46,6 +46,7 @@ class Person:
 
         circle((self.pos.x, self.pos.y), self.radius)
 
+
     def move(self, width, height):
         if self.state != "D":
             if self.pos.x - self.radius < 0 or self.pos.x + self.radius > width:
