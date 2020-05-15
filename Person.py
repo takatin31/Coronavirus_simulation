@@ -2,6 +2,7 @@ from p5 import *
 from random import randrange
 
 
+
 class Person:
     def __init__(self, width, height, degre_liberte):
         probability_infected = randrange(100)
